@@ -1,0 +1,5 @@
+The tester site is a tool that allows you to simulate the behavior of the circuit that connects an ESP32 to control three LEDs using three switches. The site provides a user interface with three virtual switches that you can toggle to change the desired state of each LED (i.e. on or off).
+
+When you toggle one of the switches on the site, the corresponding switch on your physical circuit (connected to the ESP32) will be simulated to close or open, depending on the state of the switch on the site. This, in turn, will cause the ESP32 to read the state of the switch and change the state of the corresponding LED connected to the circuit.
+
+By using the tester site, you can verify that your circuit is working as intended, without having to physically toggle the switches on your circuit. This can save time and effort, and can help you identify and correct any issues with your circuit before implementing it in a real-world application.
